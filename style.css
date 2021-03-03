@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.claro{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.escuro{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+}
+
+header.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circulos img{
+    position: absolute;
+}
+
+.top{
+    top: -550px;
+    left: -350px;
+}
+
+.bottom{
+    right: -320px;
+    bottom: -675px;
+}
+
+.pattern-card{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(249, 251, 253);
+    z-index: 1;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.top-section{
+    background: url(images/bg-pattern-card.svg);
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.imagem_victor{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 5px solid white;
+    background-color: rgb(249, 251, 253);
+    overflow: hidden;
+    margin: -50px auto 30px auto;
+}
+
+.informacoes img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.informacoes{
+    padding: 0 5px 5px;
+    border-bottom: hsl(0, 0%, 59%) solid 1px;
+}
+
+.informarcoes h2{
+    margin-bottom: 10px;
+}
+
+.informacoes h4{
+    margin-top: 10px;
+}
+
+span{
+    margin-left: 6px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px 15px;
+  }
+
+  .social div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .social .escuro {
+    margin-bottom: -10px;
+  }
+
+  .social .claro {
+    font-size: .7rem;
+    letter-spacing: 1px;
+  }
+
+.attribution { 
+    position: absolute;
+    bottom: 0;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+@media(max-width:768px) {
+
+    .container {
+      overflow: hidden;
+    }
+
+    .top {
+      top: -501px;
+      left: -772px;
+    }
+
+    .bottom {
+      right: -753px;
+      bottom: -572px;
+    }
+}
